@@ -1,0 +1,43 @@
+
+/* 2.1 Table Styles */
+table, th, td{
+	border: 1px solid black;
+}
+
+tbody th{
+	border-style:solid;
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* REFERENCE: from w3schools table_striped*/
+tbody tr:nth-child(even){
+	background-color: #8841f4;
+}
+tbody tr:nth-child(odd){
+	background-color: #f47741;
+}
+
+/* 2.2 List Styles */
+
+ul{
+	list-style-type: none;
+}
+
+/* 2.3 Div Styles.. */
+.outer-content{
+	background-color: pink;
+	width:75%;
+	margin-left: 0px
+	padding-top: 20px;
+	padding: 20px;
+
+}
+#inner-content{
+	background-color:lightblue;
+	width:75%;
+	margin:auto;
+	text-align: center;
+}
+
+
