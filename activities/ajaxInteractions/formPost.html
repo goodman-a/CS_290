@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Holiday Popularity</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Recording Holiday Popularity</legend>
+			<fieldset>
+				<label>Name: 
+					<input type="text" name="userName" id="userName">
+				</label>
+				<label>Age:
+					<input type="text" name = "age" id="age">
+				</label>
+				<label>Favorite Holiday:
+					<input type="text" name="holiday" id="holiday">
+				</label>
+				<input type="submit" name="formSubmit" id="formSubmit">
+			</fieldset>
+		</fieldset>
+	</form>
+
+	<form>
+		<fieldset>
+			<legend>Holiday Results</legend>
+			<ul>
+				<li><span>Name: </span><span id="nameResponse"></span></li>
+				<li><span>Age: </span><span id="ageResponse"></span></li>
+				<li><span>Favorite Holiday: </span><span id="holidayResponse"></span></li>
+			</ul>
+		</fieldset>
+	</form>
+
+	<script src="formPost.js"></script>
+</body>
+</html>

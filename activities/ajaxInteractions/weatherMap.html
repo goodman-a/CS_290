@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Weather Map Information</title>
+	<link rel="stylesheet" href="weather.css" type="text/css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Find out the Weather near you!</legend>
+			<fieldset>
+				<div>
+					<label>City Name: 
+						<input type="text" name="city" id="city">
+						<input type="submit" id="citySubmit">
+					</label>
+				</div>
+				<p>
+					OR
+					<br />
+				</p>
+				<div>
+					<label>Zip Code:
+						<input type="text" name="zip" id="zip">
+						<input type="submit" id="zipSubmit">
+					</label>
+				</div>
+			</fieldset>
+		</fieldset>
+	</form>
+
+	<form>
+		<fieldset>
+			<legend>Weather Results</legend>
+			<ul>
+				<li><span>Data Collected at [zulu]: </span><span id="cityDt"></span></li>
+				<li><span>City: </span><span id="cityName"></span></li>
+				<li><span>Temperature [F]: </span><span id="cityTemp"></span></li>
+				<li><span>Humidity [%]: </span><span id="cityHum"></span></li>
+				<li><span>Wind Speed [mph]: </span><span id="cityWind"></span></li>
+				<li><span>Sunrise [zulu]: </span><span id="sunrise"></span></li>
+				<li><span>Sunset [zulu]: </span><span id="sunset"></span></li>
+			</ul>
+		</fieldset>
+	</form>
+
+
+	<script src="weather.js"></script>
+</body>
+</html>
